@@ -1,0 +1,70 @@
+spring:
+  profiles: test
+  application:
+    name: orderService
+  boot:
+    admin:
+      auto-registration: true
+    boot:
+      admin:
+        url: http://localhost:8081
+
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+
+  zipkin:
+    base-url: http://127.0.0.1:1111
+management:
+  security:
+    enabled: false
+
+security:
+  basic:
+    enabled: false
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://kdroot:kedun$2018@127.0.0.1:9500/eureka
+server:
+  port: 6379
+---
+server:
+  port: 6400
+
+spring:
+  profiles: test2
+  application:
+    name: orderService
+  boot:
+    admin:
+      auto-registration: true
+    boot:
+      admin:
+        url: http://localhost:8081
+
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+
+  zipkin:
+    base-url: http://127.0.0.1:1111
+management:
+  security:
+    enabled: false
+
+security:
+  basic:
+    enabled: false
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://kdroot:kedun$2018@127.0.0.1:9500/eureka
