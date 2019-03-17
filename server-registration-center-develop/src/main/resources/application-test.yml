@@ -1,0 +1,18 @@
+spring:
+  profiles: test
+name: kdroot
+password: kedun$2018
+server:
+  port: 8080
+  context-path: /
+eureka:
+  instance:
+    hostname: business-server
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 1000
+  client:
+    service-url:
+      defaultZone: http://${name}:${password}@localhost:${server.port}/eureka/
+    register-with-eureka: false
+    fetch-registry: false

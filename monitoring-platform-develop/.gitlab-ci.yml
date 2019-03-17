@@ -1,0 +1,22 @@
+stages:
+  - business-staging
+  - business-release
+
+
+business-staging:
+  stage: business-staging
+  script:
+    - sh shell/ci.sh ${CI_COMMIT_SHA} ${CI_PROJECT_NAME} ${CI_PROJECT_NAMESPACE} test 172.18.18.210 18502 eureka.kedun:18501
+  only:
+    - '/staging-.*$/'
+  tags:
+    - business-staging
+
+business-release:
+  stage: business-release
+  script:
+    - sh shell/ci.sh ${CI_COMMIT_SHA} ${CI_PROJECT_NAME} ${CI_PROJECT_NAMESPACE} prod null 18502 null
+  only:
+    - '/release-.*$/'
+  tags:
+    - business-release

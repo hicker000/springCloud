@@ -1,0 +1,10 @@
+server:
+  context-path: /notification
+  port: 8001
+
+cola:
+  sms:  #短信配置
+    type: aliyun
+    aliyun:
+      access-key-id: ${COLA_ALIYUN_ACCESS_KEY_ID}
+      access-key-secret: ${COLA_ALIYUN_ACCESS_KEY_SECRET}

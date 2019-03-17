@@ -1,0 +1,22 @@
+server:
+  context-path: /common
+  port: 6006
+
+cola:
+  storage:
+    type: aliyun
+    oss:
+      access-key-id: ${COLA_ALIYUN_ACCESS_KEY_ID}
+      access-key-secret: ${COLA_ALIYUN_ACCESS_KEY_SECRET}
+      bucket-name: honvay-cola
+      endpoint: oss-cn-hangzhou.aliyuncs.com
+  vc:
+    sms:
+      template-code: SMS_115750106
+      code-param-name: code
+      sign-name: Cola云平台
+
+security:
+  oauth2:
+    resource:
+      id: common-service

@@ -1,0 +1,64 @@
+Manifest-Version: 1.0
+Class-Path: libs/eureka-client-1.7.2.jar libs/guice-4.1.0.jar libs/spr
+ ing-boot-admin-starter-server-1.5.7.jar libs/spring-cloud-netflix-cor
+ e-1.4.4.RELEASE.jar libs/servo-core-0.10.1.jar libs/commons-math-2.2.
+ jar libs/netflix-infix-0.3.0.jar libs/bcprov-jdk15on-1.55.jar libs/eu
+ reka-core-1.7.2.jar libs/spring-cloud-starter-eureka-1.4.4.RELEASE.ja
+ r libs/hamcrest-core-1.3.jar libs/classmate-1.3.4.jar libs/ribbon-tra
+ nsport-2.2.5.jar libs/netty-buffer-4.0.27.Final.jar libs/jcl-over-slf
+ 4j-1.7.25.jar libs/spring-boot-starter-actuator-1.5.12.RELEASE.jar li
+ bs/spring-boot-1.5.12.RELEASE.jar libs/bcpkix-jdk15on-1.55.jar libs/a
+ opalliance-1.0.jar libs/spring-boot-devtools-1.5.12.RELEASE.jar libs/
+ joda-time-2.9.9.jar libs/spring-webmvc-4.3.16.RELEASE.jar libs/ribbon
+ -eureka-2.2.5.jar libs/stax-api-1.0.1.jar libs/jackson-annotations-2.
+ 8.0.jar libs/spring-expression-4.3.16.RELEASE.jar libs/servo-internal
+ -0.10.1.jar libs/tomcat-embed-el-8.5.29.jar libs/rxnetty-servo-0.4.9.
+ jar libs/rxjava-1.2.0.jar libs/slf4j-api-1.7.25.jar libs/netty-codec-
+ 4.0.27.Final.jar libs/jackson-databind-2.8.11.1.jar libs/commons-conf
+ iguration-1.8.jar libs/jboss-logging-3.3.2.Final.jar libs/spring-aop-
+ 4.3.16.RELEASE.jar libs/spring-security-core-4.2.5.RELEASE.jar libs/r
+ ibbon-2.2.5.jar libs/xstream-1.4.10.jar libs/tomcat-embed-core-8.5.29
+ .jar libs/spring-boot-starter-1.5.12.RELEASE.jar libs/spring-cloud-co
+ mmons-1.3.3.RELEASE.jar libs/spring-cloud-starter-netflix-archaius-1.
+ 4.4.RELEASE.jar libs/log4j-over-slf4j-1.7.25.jar libs/hystrix-core-1.
+ 5.12.jar libs/antlr-runtime-3.4.jar libs/javax.inject-1.jar libs/spri
+ ng-boot-starter-logging-1.5.12.RELEASE.jar libs/jackson-core-2.8.11.j
+ ar libs/spring-security-config-4.2.5.RELEASE.jar libs/HdrHistogram-2.
+ 1.9.jar libs/spring-boot-starter-web-1.5.12.RELEASE.jar libs/ribbon-h
+ ttpclient-2.2.5.jar libs/commons-lang-2.6.jar libs/spring-cloud-conte
+ xt-1.3.3.RELEASE.jar libs/jolokia-core-1.3.7.jar libs/jettison-1.3.7.
+ jar libs/spring-boot-admin-server-ui-1.5.7.jar libs/archaius-core-0.7
+ .4.jar libs/spring-security-rsa-1.0.3.RELEASE.jar libs/rxnetty-0.4.9.
+ jar libs/netty-transport-4.0.27.Final.jar libs/netty-codec-http-4.0.2
+ 7.Final.jar libs/jsr305-3.0.1.jar libs/spring-web-4.3.16.RELEASE.jar 
+ libs/httpclient-4.5.5.jar libs/spring-security-web-4.2.5.RELEASE.jar 
+ libs/commons-io-2.4.jar libs/jersey-apache-client4-1.19.1.jar libs/st
+ ringtemplate-3.2.1.jar libs/rxnetty-contexts-0.4.9.jar libs/logback-c
+ ore-1.1.11.jar libs/stax-api-1.0-2.jar libs/json-simple-1.1.1.jar lib
+ s/woodstox-core-asl-4.4.1.jar libs/spring-boot-starter-security-1.5.1
+ 2.RELEASE.jar libs/spring-boot-autoconfigure-1.5.12.RELEASE.jar libs/
+ httpcore-4.4.9.jar libs/netty-handler-4.0.27.Final.jar libs/commons-c
+ odec-1.10.jar libs/spring-boot-actuator-1.5.12.RELEASE.jar libs/netty
+ -common-4.0.27.Final.jar libs/guava-18.0.jar libs/junit-4.12.jar libs
+ /xmlpull-1.1.3.1.jar libs/spring-cloud-starter-1.3.3.RELEASE.jar libs
+ /spring-cloud-starter-netflix-eureka-client-1.4.4.RELEASE.jar libs/sp
+ ring-boot-admin-client-1.5.7.jar libs/stax2-api-3.1.4.jar libs/netfli
+ x-statistics-0.1.1.jar libs/ribbon-core-2.2.5.jar libs/commons-jxpath
+ -1.3.jar libs/spring-context-4.3.16.RELEASE.jar libs/netflix-eventbus
+ -0.3.0.jar libs/gson-2.8.2.jar libs/tomcat-annotations-api-8.5.29.jar
+  libs/hibernate-validator-5.3.6.Final.jar libs/validation-api-1.1.0.F
+ inal.jar libs/tomcat-embed-websocket-8.5.29.jar libs/spring-boot-admi
+ n-server-ui-login-1.5.7.jar libs/jersey-core-1.19.1.jar libs/spring-s
+ ecurity-crypto-4.2.5.RELEASE.jar libs/commons-collections-3.2.2.jar l
+ ibs/antlr-2.7.7.jar libs/netflix-commons-util-0.1.1.jar libs/spring-b
+ oot-admin-server-1.5.7.jar libs/zuul-core-1.3.0.jar libs/logback-clas
+ sic-1.1.11.jar libs/spring-beans-4.3.16.RELEASE.jar libs/jersey-clien
+ t-1.19.1.jar libs/spring-boot-admin-starter-client-1.5.7.jar libs/net
+ ty-transport-native-epoll-4.0.27.Final.jar libs/spring-cloud-netflix-
+ eureka-client-1.4.4.RELEASE.jar libs/spring-boot-starter-tomcat-1.5.1
+ 2.RELEASE.jar libs/xpp3_min-1.1.4c.jar libs/ribbon-loadbalancer-2.2.5
+ .jar libs/jsr311-api-1.1.1.jar libs/snakeyaml-1.17.jar libs/spring-co
+ re-4.3.16.RELEASE.jar libs/jul-to-slf4j-1.7.25.jar libs/spring-cloud-
+ starter-netflix-ribbon-1.4.4.RELEASE.jar
+Main-Class: com.kedun.businessmonitor.Application
+

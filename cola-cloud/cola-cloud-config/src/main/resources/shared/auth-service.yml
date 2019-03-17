@@ -1,0 +1,9 @@
+server:
+  context-path: /uaa
+  port: 5005
+
+cola:
+  wechat:
+    miniapp:
+      appid: ${COLA_WECHAT_MINIAPP_APPID}
+      secret: ${COLA_WECHAT_MINIAPP_SECRET}

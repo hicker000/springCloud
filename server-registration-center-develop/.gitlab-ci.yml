@@ -1,0 +1,21 @@
+stages:
+  - business-staging
+  - business-release
+
+business-staging:
+  stage: business-staging
+  script:
+    - sh shell/ci.sh ${CI_COMMIT_SHA} ${CI_PROJECT_NAME} ${CI_PROJECT_NAMESPACE} test null 18501 null
+  only:
+    - '/staging-.*$/'
+  tags:
+    - business-staging
+
+business-release:
+  stage: business-release
+  script:
+    - sh shell/ci.sh ${CI_COMMIT_SHA} ${CI_PROJECT_NAME} ${CI_PROJECT_NAMESPACE} prod null 18501 null
+  only:
+    - '/release-.*$/'
+  tags:
+    - business-release

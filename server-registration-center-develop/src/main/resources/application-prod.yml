@@ -1,0 +1,13 @@
+spring:
+  profiles: prod
+name: kdroot
+password: kedun$2018
+server:
+  port: 18501
+  context-path: /
+eureka:
+  instance:
+    hostname: business-server
+  client:
+    service-url:
+      defaultZone: http://${name}:${password}@localhost:${server.port}/eureka/

@@ -1,0 +1,6 @@
+server:
+  context-path: /uc
+  port: 6000
+
+flyway:
+  baselineOnMigrate: true

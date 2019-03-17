@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: server-registration-center
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+security:
+  basic:
+    enabled: false
+management:
+  security:
+    enabled: false
+
+
